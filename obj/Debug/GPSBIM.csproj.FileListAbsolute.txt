@@ -1,0 +1,14 @@
+C:\Users\weiqixiang\source\repos\GPSBIM\bin\Debug\GPSBIM.dll
+C:\Users\weiqixiang\source\repos\GPSBIM\bin\Debug\GPSBIM.pdb
+C:\Users\weiqixiang\source\repos\GPSBIM\bin\Debug\GPSBIM.dll.manifest
+C:\Users\weiqixiang\source\repos\GPSBIM\bin\Debug\GPSBIM.vsto
+C:\Users\weiqixiang\source\repos\GPSBIM\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\weiqixiang\source\repos\GPSBIM\obj\Debug\GPSBIM.csproj.AssemblyReference.cache
+C:\Users\weiqixiang\source\repos\GPSBIM\obj\Debug\GPSBIM.g.resources
+C:\Users\weiqixiang\source\repos\GPSBIM\obj\Debug\GPSBIM.Properties.Resources.resources
+C:\Users\weiqixiang\source\repos\GPSBIM\obj\Debug\GPSBIM.Ribbon1.resources
+C:\Users\weiqixiang\source\repos\GPSBIM\obj\Debug\GPSBIM.csproj.GenerateResource.cache
+C:\Users\weiqixiang\source\repos\GPSBIM\obj\Debug\GPSBIM.csproj.CoreCompileInputs.cache
+C:\Users\weiqixiang\source\repos\GPSBIM\obj\Debug\GPSBIM.csproj.CopyComplete
+C:\Users\weiqixiang\source\repos\GPSBIM\obj\Debug\GPSBIM.dll
+C:\Users\weiqixiang\source\repos\GPSBIM\obj\Debug\GPSBIM.pdb
