@@ -40,19 +40,20 @@ namespace GPSBIM
                     break;
                 }
             }
-            MessageBox.Show("成功修改" + i.ToString() + "处!", "GPSBIM", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("成功修改" + (i - 1).ToString() + "处!", "GPSBIM", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
         private void button2_Click(object sender, RibbonControlEventArgs e)
         {
             string cellContent = excelApp.Cells[2, 4].Value;
             string[] sArray = cellContent.Split('-');
             string modifyCellContent = sArray.ElementAt(0);
-           // MessageBox.Show(modifyCellContent);        
+            // MessageBox.Show(modifyCellContent);        
 
             int j = 0;
             for (int i = 7; i < 500; i++)
             {
-                string cell = excelApp.Cells[i, 1].Value;
+                string cell = Convert.ToString(excelApp.Cells[i, 1].Value);
+
                 if (cell != null && cell != "" && (FilterCH(cell) == "" || FilterCH(cell) == null))
                 {
                     excelApp.Cells[i, 1].Value = modifyCellContent;
@@ -66,6 +67,7 @@ namespace GPSBIM
             string[] pArray = excelApp.Cells[1, 4].Value.Split('-');
             string projectNum = pArray.ElementAt(0);
             eltSheet.PageSetup.LeftFooter = "&\"Arial\"" + "&16" + " " + projectNum + "-" + modifyCellContent + "-" + "WD-ELT";
+
 
             MessageBox.Show("成功修改子项车间编号" + j.ToString() + "处!" + "\r" + "\r" + "成功修改页脚！", "GPSBIM", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }

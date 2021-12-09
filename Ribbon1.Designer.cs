@@ -60,7 +60,7 @@
             // button1
             // 
             this.button1.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
-            this.button1.Image = global::GPSBIM.Properties.Resources._150;
+            this.button1.Image = global::GPSBIM.Properties.Resources._151;
             this.button1.Label = "编号排序\r";
             this.button1.Name = "button1";
             this.button1.ShowImage = true;
