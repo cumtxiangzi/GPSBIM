@@ -210,6 +210,15 @@
   <ItemGroup>
     <Resource Include="151.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="86.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="92.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
